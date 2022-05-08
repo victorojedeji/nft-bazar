@@ -1,0 +1,314 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #e9fcfc;
+}
+
+
+
+#allContainer {
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+
+#bodyContainer {
+    display: flex;
+}
+
+#headerNav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid #ececec;
+}
+
+.wordDeco {
+    text-transform: uppercase;
+    color: #0c0222;
+    font-size: 30px;
+}
+
+.bazar {
+    text-transform: capitalize;
+    color: #20bfd4;
+    margin-left: 10px;
+}
+
+.aLink {
+    text-decoration: none;
+    color: #0c0222;
+}
+
+.designBtn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #20bfd4;
+    cursor: pointer;
+    font-weight: 300;
+    transition-duration: .5s;
+    transition-timing-function: ease-out;
+}
+
+.designBtnStable {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    font-weight: 300;
+    background-color: #20bfd4;
+    transition: 1s;
+    transition-timing-function: ease-out;
+}
+
+.designBtnStable:hover {
+    background-color: #0a9db1;
+}
+
+.designBtn:hover {
+    background-color: #0a9db1;
+    color: white;
+}
+
+#listContainer {
+    display: flex;
+    list-style: none; 
+}
+
+.navlist {
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.aLink:hover {
+    color: #20bfd4;
+    cursor: pointer;
+}
+
+.navlist::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #20bfd4;
+    display: block;
+    transition: 0.5s;
+}
+
+.navlist:hover::after {
+    width: 20%;
+}
+
+#secondSectionImg{
+    height: 81vh;
+}
+
+#firstSection {
+    flex-basis: 40%;
+    height: 82vh;
+}
+
+#firstSection h1 {
+    margin-bottom: .5em;
+    font-size: 47px;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 2.7em;
+}
+
+#firstSection>p {
+    margin-bottom: 2em;
+    font-weight: 300;
+}
+
+#viewCollections {
+    margin-bottom: 6.2em;
+}
+
+.socialImg {
+    width: 15px;
+    margin-top: 15px;
+    margin-right: 7px;
+}
+
+#linkUp p {
+    word-spacing: 5px;
+    margin-left: 5px;
+}
+
+#secondSection {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+#thirdSection {
+    flex-basis: 40%;
+    height: 82vh;
+}
+
+#thirdSectionWrapper {
+    width: 90%;
+    margin: 0 auto;
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#bidSection {
+    margin-top: 8em;
+    background-color: white;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    width: 70%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#bidSection h1 {
+    background-color: white;
+}
+
+#hedgehog {
+    background-color: white;
+    color: #20bfd4;
+}
+
+#bidWrapper {
+    padding: .8em;
+    width: 90%;
+    border-radius: 20px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#bidContentWrapper {
+    display: flex;
+    align-items: center;
+    margin-top: .5em;
+    padding: 3px;
+}
+
+#priceContent {
+    display: flex;
+}
+
+#priceContent>p {
+    margin-left: 5px;
+}
+
+.coinImg {
+    width: 40px;
+    margin-left: 0;
+    margin-left: -.9em;
+}
+
+#firstPrice {
+    color: #20bfd4;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+#secondPrice {
+    font-size: 15px;
+    margin-top: .5em;
+    font-weight: 200;
+}
+
+#buttonSect {
+    background-color: white;
+}
+
+#share {
+    background-color: white;
+    transition-duration: .5s;
+    transition-timing-function: ease-out;
+}
+
+#share:hover {
+    background-color: #0a9db1;
+    color: white;
+}
+
+#userSection {
+    margin-top: 2em;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+}
+
+.userDetails {
+    display: flex;
+    margin-top: 1em;
+    justify-content: space-between;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+}
+
+.userImg {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    margin-right: .8em;
+}
+
+.priceFlunc {
+    display: flex;
+
+}
+
+.lightBlue {
+    color: #20bfd4;
+    margin-right: .5em;
+}
+
+.darkBlue {
+    color: #0c0222;
+}
+
+.lightBlueName {
+    color: #20bfd4;
+}
+
+.darkBlueName {
+    color: #0c0222;
+}
+
+#promoter {
+    width: 70%;
+    margin-left: 50%;
+    display: flex;
+    margin-top: 1.9em;
+    transform: translateX(-50%);
+    justify-content: end;
+    align-items: center;
+}
+
+.darkBluePowered {
+    color: #0c0222;
+}
+
+#promoterImg {
+    width: 25px;
+    margin-left: 1em;
+    z-index: 1;
+}
+
+#bestBuy {
+    margin-left: -3px;
+    color: #20bfd4;
+}
