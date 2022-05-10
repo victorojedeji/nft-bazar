@@ -231,14 +231,14 @@
 }
 
 #share {
-    background-color: white;
+    background-color: #ffffff;
     transition-duration: .5s;
     transition-timing-function: ease-out;
 }
 
 #share:hover {
     background-color: #0a9db1;
-    color: white;
+    color: #ffffff;
 }
 
 #userSection {
