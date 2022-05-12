@@ -233,7 +233,7 @@
 #share {
     background-color: #ffffff;
     transition-duration: .5s;
-    transition-timing-function: ease-out;
+    transition-timing-function: ease;
 }
 
 #share:hover {
