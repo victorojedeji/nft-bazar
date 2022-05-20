@@ -432,5 +432,29 @@ body {
 }
 
 @media (max-width: 842px) {
-    
+    #headerNav ul li {
+        font-size: 1.3rem;
+    }
+
+    #firstSection h1 {
+        font-size: 3.6rem;
+    }
+
+    #linkUp p {
+        font-size: 1.2rem;
+    }
+
+    #secondSection img {
+        height: 35rem;
+    }
+
+    #bidSection h1 {
+        background-color: #ffffff;
+        font-size: 1.5rem;
+        margin-bottom: .5rem;
+    }
+
+    #userSection h1 {
+        font-size: 1.7rem;
+    }
 }
