@@ -13,32 +13,41 @@
         <!-- name and navbar -->
         <header id="headerNav">
 
-            <a href="nftbazer" class="aLink">
+            <a href="nftbazer" id="nft-bazar" class="aLink">
                 <h1 class="wordDeco">nft<span class="bazar">Bazar</span></h1>
             </a>
 
-            <ul id="listContainer">
-                <li class="navlist">
-                    <a class="aLink" href="#marketplace">Marketplace</a>
-                </li>
+            <div id="nav-container">
+                <img src="/icons/close3.svg" class="icons" id="close-btn"> 
 
-                <li class="navlist">
-                    <a class="aLink" href="#nftcollectibles">NFT collectibles</a>
-                </li>
+                <ul id="listContainer">
+                    
+                    <li class="navlist">
+                        <a class="aLink" href="#marketplace">Marketplace</a>
+                    </li>
 
-                <li class="navlist">
-                    <a class="aLink" href="#mining">Mining</a>
-                </li>
+                    <li class="navlist">
+                        <a class="aLink" href="#nftcollectibles">NFT collectibles</a>
+                    </li>
 
-                <li class="navlist">
-                    <a class="aLink" href="#resources">Resources</a>
-                </li>
-            </ul>
+                    <li class="navlist">
+                        <a class="aLink" href="#mining">Mining</a>
+                    </li>
+
+                    <li class="navlist">
+                        <a class="aLink" href="#resources">Resources</a>
+                    </li>
+                </ul>
+            </div>
 
             
             <div class="buttonSection"> 
-                <button class="designBtn">Sign up</button>
-                <button class="designBtnStable">Login</button>
+                <div class="id-buttons">
+                    <button class="designBtn">Sign up</button>
+                    <button class="designBtnStable">Login</button>
+                </div>
+                
+                <img src="/icons/menu1.svg" class="icons" id="open-btn">
             </div>
         </header>
         <!-- navbar ends -->
@@ -164,5 +173,7 @@
             </div>
        </div>
     </section>
+
+    <script src="index.js"></script>
 </body>
 </html>
