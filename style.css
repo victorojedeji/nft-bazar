@@ -440,8 +440,29 @@ body {
         font-size: 3.6rem;
     }
 
+    #firstSection button {
+        font-size: 1.1rem;
+        display: inline;
+        width: 25%;
+    }
+
+    .aLink .socialImg {
+        width: 1.1rem;
+    }
+
+    #secondSection {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    #thirdSection {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
     #linkUp p {
         font-size: 1.2rem;
+        font-weight: 600;
     }
 
     #secondSection img {
@@ -454,7 +475,19 @@ body {
         margin-bottom: .5rem;
     }
 
+    #userSection {
+        margin-bottom: .5rem;
+    }
+
     #userSection h1 {
         font-size: 1.7rem;
+    }
+
+    #promoter {
+        margin-top: 0;
+    }
+
+    #bodyContainer{
+        padding-bottom: 0;
     }
 }
