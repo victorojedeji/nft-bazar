@@ -532,6 +532,7 @@ body {
     #allContainer {
         margin-left: 1rem;
         margin-right: 1rem;
+        overflow: hidden;
     }
 
     header {
@@ -552,21 +553,52 @@ body {
         display: block;
     }
 
-    .nav-container {
+    #nav-container {
+        display: flex;
+        flex-direction: column;
         position: absolute;
-        background: #f44336;
-        height: 100vh;
-        width: 40%;
+        height: 100%;
+        padding-bottom: 10rem;
         top: 0;
         right: 0;
         text-align: left;
         z-index: 2;
         width: 0px;
+        background: #0a9db1;
         transition: 1s;
+    }
+
+    #listContainer {
+        display: block;
+        background: #0a9db1;
+        
+    }
+
+    #listContainer ul li a {
+        background: #0a9db1;  
+    }
+
+    .navlist {
+        display: block;
+        background: #0a9db1;
+        margin-bottom: 1rem;
+        
+    }
+
+    .aLink:hover {
+        color: #20bfd4;
+        cursor: pointer;
     }
 
     .icons{
         display: block;
-        margin: 10px;
+        
+    }
+
+    #close-btn {
+        background-color: #0a9db1;
+        margin-bottom: 5rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
     }
 }
