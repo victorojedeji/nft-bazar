@@ -490,4 +490,17 @@ body {
     #bodyContainer{
         padding-bottom: 0;
     }
+
+    #allContainer {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
 }
+
+/* @media (max-width: 687px) {
+    #bodyContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1fr 1fr 1fr);
+    }
+} */
