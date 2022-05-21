@@ -128,7 +128,7 @@ body {
     height: .15rem;
     background: #20bfd4;
     display: block;
-    transition: 0.5s;
+    transition: .5s;
 }
 
 .navlist:hover::after {
@@ -532,7 +532,6 @@ body {
     #allContainer {
         margin-left: 1rem;
         margin-right: 1rem;
-        overflow: hidden;
     }
 
     header {
@@ -590,6 +589,10 @@ body {
         cursor: pointer;
     }
 
+    .navlist:hover::after {
+        background: #90e3ed;
+    }
+
     .icons{
         display: block;
         
@@ -600,5 +603,73 @@ body {
         margin-bottom: 5rem;
         margin-top: 1rem;
         margin-left: 1rem;
+    }
+
+    #firstSection h1 {
+        margin-top: 5rem;
+        margin-bottom: 1.5rem;
+        font-size: 2.5rem;
+        font-weight: 700;
+        width: 100%;
+        word-spacing: .5rem;
+    }
+
+    #firstSection>p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+    }
+
+    #firstSection button {
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        font-size: 1.3rem;
+    }
+    
+    #linkUp {
+        display: flex;
+        align-items: baseline;
+        width: 70%;
+        margin: 0 auto;
+        justify-content: space-around;
+    }
+
+    #secondSection {
+        margin-top: -7rem;
+        height: 20rem;
+        margin-bottom: 18rem;
+    }
+
+    #secondSection img {
+        height: 30rem;
+    }
+
+    #thirdSection {
+        height: 40rem;
+    }
+
+    #thirdSectionWrapper {
+        height: 40rem;
+    }
+    
+    #bidSection {
+        margin-top: 0rem;
+        padding: .5rem;
+        border-radius: 1.5rem;
+        width: 60%;
+        height: 20rem;
+    }
+    
+    #bidSection h1 {
+        background-color: #ffffff;
+        font-size: 2rem;
+        margin-bottom: .5rem;
+    }
+
+    #bidSection h1 span {
+        font-size: 2rem;
     }
 }
