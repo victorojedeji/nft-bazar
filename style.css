@@ -497,10 +497,13 @@ body {
     }
 }
 
-/* @media (max-width: 687px) {
+@media (max-width: 687px) {
     #bodyContainer {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(1fr 1fr 1fr);
+        display: flex;
+        flex-direction: column;
     }
-} */
+
+    #listContainer {
+        display: none;
+    }
+}
