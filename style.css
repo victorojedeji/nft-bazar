@@ -598,6 +598,10 @@ body {
         
     }
 
+    .id-buttons button {
+        font-size: 1.9vw;
+    }
+
     #close-btn {
         background-color: #0a9db1;
         margin-bottom: 5rem;
@@ -671,5 +675,53 @@ body {
 
     #bidSection h1 span {
         font-size: 2rem;
+    }
+
+    #bidWrapper p {
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    #bidContentWrapper {
+        justify-content: center;
+    }
+
+    #bidContentWrapper img {
+        width: 4rem;
+    }
+
+    .buttonSection button {
+        font-size: 2vw;
+    }
+
+    #userSection h1 {
+        font-size: 3.5vw;
+    }
+
+    .userDetails .userImg {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .userDetails .name-fsize {
+        font-size: 2.5vw;
+    }
+
+    .userDetails .days {
+        font-size: 2vw;
+    }
+
+    .priceFlunc .qty-fsize {
+        font-size: 2vw;
+        font-weight: 700;
+    }
+
+    #promoter p {
+        font-size: 2vw;
+    }
+
+    #promoter img {
+        width: 3rem;
+        height: 3rem;
     }
 }
