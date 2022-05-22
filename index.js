@@ -11,3 +11,27 @@ nav.style.width= "0px"
 };
 
 
+// let nav = selectElement("#nav-container");
+// let toggle = selectElement(".icons");
+// let body = selectElement("body");
+
+// function selectElement(element) {
+//     return document.querySelector(element);
+// } 
+
+
+// toggle.onclick = function(){
+//     console.log("ive been clicked");
+// };
+
+
+// function selectElement(element) {
+//     return document.querySelector(element);
+// }
+
+// let toggle = selectElement('.icons');
+// let body = selectElement("body");
+
+// toggle.addEventListener('click', function (){
+//     body.classList.toggle('open');
+// });

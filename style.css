@@ -372,7 +372,7 @@ body {
     font-size: 1vw;
 }
 
-/* ===== media queries */
+/* ===== media queries ===== */
 
 @media (max-width: 1100px) {
     #bodyContainer {
@@ -492,7 +492,7 @@ body {
     }
 
     #secondSection img {
-        height: 35rem;
+        height: 45rem;
     }
 
     #bidSection h1 {
@@ -552,11 +552,27 @@ body {
         display: block;
     }
 
-    #nav-container {
+    /* #nav-container {
         display: flex;
         flex-direction: column;
-        position: absolute;
-        height: 100%;
+        position: fixed;
+        height: 100vh;
+        padding-bottom: 10rem;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+        width: 0px;
+        background: #0a9db1;
+        transform: translateX(-100%);
+        transition: 1s;
+    } */
+
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        height: 100vh;
         padding-bottom: 10rem;
         top: 0;
         right: 0;
@@ -727,19 +743,28 @@ body {
 }
 
 @media (max-width: 450px) {
-    #firstSection .h1 {
+    .buttonSection {
+        justify-content: space-around;
+    }
+
+    #firstSection h1 {
         margin-top: 3rem;
         margin-bottom: 1.5rem;
         width: 85%;
         margin: 0 auto;
         word-wrap: break-word;
-    }
-
-    #firstSection h1 {
-        
         font-size: 2.5rem;
         font-weight: 700;
         text-align: center;
         
+    }
+
+    #firstSection p {
+        margin: 2rem;
+        width: 90%;
+    }
+
+    #id-buttons button {
+        font-size: 8vw;
     }
 }
