@@ -765,6 +765,10 @@ body {
     }
 
     #id-buttons button {
-        font-size: 8vw;
+        font-size: 2rem;
+    }
+
+    .icons {
+        display: block;
     }
 }
